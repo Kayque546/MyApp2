@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Artistas Nacionais">
+            <menu>
+                <item
+                    android:id="@+id/TmMaia"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Tim Maia"/>
+                <item
+                    android:id="RaulSeixas"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Raul Seixas"/>
+                <item
+                    android:id="Racionais"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Racionais Mc"/>
+                <item
+                    android:id="RacaNegra"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Raça Negra"/>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Artistas Internacionais">
+            <menu>
+                <item
+                    android:id="@+id/MJ"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Michael Jackson"/>
+                <item
+                    android:id="@+id/YoungBoy"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="NBA YoungBoy"/>
+                <item
+                    android:id="@+id/Eminem"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Eminem"/>
+                <item
+                    android:id="@+id/LilBaby"
+                    android:icon="@drawable/ic_baseline_person"
+                    android:title="Lil Baby"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
